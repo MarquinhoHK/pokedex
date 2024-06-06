@@ -41,7 +41,7 @@ $(document).ready(function(){
                 });
                 var cookies = [];
 
-                if (document.cookie != "empty"){
+                if (document.cookie != "empty" || document.cookie != ""){
                     cookies = document.cookie.split(",");
                 }
 
