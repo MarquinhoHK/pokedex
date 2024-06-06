@@ -1,0 +1,207 @@
+/* Search */
+
+body .block-search {
+    padding-top: 20px;
+}
+
+body .block-search .limit-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+body .block-search-box input {
+    padding: 4%;
+    padding-right: 5%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: clamp(8px, 18px, 25px);
+    color: #3a444d;    
+    margin-bottom: 10%;
+    box-shadow: -3px 3px 10px #3a444d;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+/* Display */
+
+body .block-search-display {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: ghostwhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 2% auto;
+    box-shadow: -3px 3px 10px #3a444d;
+}
+
+body .block-search-display-image {
+    position: relative;
+    margin: 2%;
+    width: 25%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -3px 3px 10px #3a444d;
+}
+
+body .block-search-display-image .block-search-display-image-background {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+body .block-search-display-image .block-search-display-image-pokemon {
+    position: absolute;
+    width: auto;
+    height: 70%;
+    bottom: 17%;
+    left: 33%;
+}
+
+body .block-search-display-id {
+    display: flex;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 69%;
+    height: 25%;
+    top: 0;
+    left: 27%;
+    background-color: ghostwhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -3px 3px 10px #3a444d;
+}
+
+body .block-search-display-id h1 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1%;
+    padding-right: 4%;
+    font-weight: 600;
+    font-size: clamp(8px, 18px, 25px);
+    color: #3a444d;    
+}
+
+body .block-search-display-id .block-search-display-id-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: ghostwhite;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: -3px 3px 10px #000000;
+    overflow: hidden;
+}
+
+body .block-search-display-id .block-search-display-id-button img {
+    width: 24px;
+    height: 24px;
+}
+
+body .block-search-display-id .block-search-display-id-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: ghostwhite;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: -3px 3px 10px #000000;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+body .block-search-display-id .block-search-display-id-button:hover {
+    transition: all .3s linear;
+    width: 40px;
+    height: 40px;
+}
+
+body .block-search-display-id .block-search-display-id-button.active {
+    transition: all .3s ease-in-out;
+    background-color: gold;
+}
+
+body .block-search-display-id .block-search-display-id-button img {
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+body .block-search-display-id .block-search-display-id-button:hover img {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+body .block-search-display-info {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 69%;
+    height: 50%;
+    top: 30%;
+    left: 27%;
+    background-color: ghostwhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -3px 3px 10px #3a444d;
+}
+
+
+
+body .block-search-display-info h1 {
+    margin-top: 1%;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1%;
+    padding-right: 4%;
+    font-weight: 600;
+    font-size: clamp(8px, 18px, 25px);
+    color: #3a444d;   
+}
+
+body .block-search-display-info ul {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 50%;
+    left: 22.5%;
+    top: 15%;
+}
+
+body .block-search-display-info ul li{
+    font-weight: bold;
+    color: #3a444d;   
+}

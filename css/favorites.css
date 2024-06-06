@@ -1,0 +1,14 @@
+body .block-list-box-message {
+    display: none;
+}
+
+body .block-list-box-message.active {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    font-weight: 600;
+    color: #3a444d;
+    margin-top: 15px;
+    width: 100%;
+    height: 30%;
+}

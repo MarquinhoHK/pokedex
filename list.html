@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="icon" href="img/pokeball.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <div class="limit-wrapper">
+            <div class="header-name">
+                <a href="index.html">
+                    <h1>Pesquisar</h1>
+                </a>
+                <a href="favorites.html">
+                    <h1>Favoritos</h1>
+                </a>
+            </div>
+            <div class="header-image">
+                <a href="search.html">
+                    <img class="header-image-backgound" src="img/pokeball.png" width="6%">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div id="content-wrapper">
+        <div id="block-list">
+            <div class="limit-wrapper">
+                <div class="block-list-box"></div>
+                <a class="block-list-box-button first"><img src="img/firstArrow.png" width="3%"></a>
+                <a class="block-list-box-button prev"><img src="img/prevArrow.png" width="3%"></a>
+                <a class="block-list-box-button next"><img src="img/nextArrow.png" width="3%"></a>
+                <a class="block-list-box-button last"><img src="img/lastArrow.png" width="3%"></a>
+            </div>
+        </div>
+    </div>
+    <div  class="block-details">
+        <div class="block-details-header">
+            <button class="block-details-header-button">
+                <img src="img/estrela.png">
+            </button>
+        </div>
+        <div class="block-details-image">
+            <img class="block-details-image-backgound" src="img/background.jpeg">
+            <div id="block-details-slick"></div>
+        </div>
+        <div class="block-details-info-attacks">
+            <h1>Ataques</h1>
+            <div class="block-details-info-attacks-list"></div>
+        </div>
+        <div class="block-details-info-evolutions">
+            <h1>Evoluções</h1>
+            <div class="block-details-info-evolutions-list"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/b0bf9c1a2b.js" crossorigin="anonymous"></script>
+    <script src="js/list.js"></script>
+</body>
+</html>

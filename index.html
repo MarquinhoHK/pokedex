@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="icon" href="img/pokeball.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+    <header>
+        <div class="limit-wrapper">
+            <div class="header-name">
+                <a href="list.html">
+                    <h1>Pokédex</h1>
+                </a>
+                <a href="favorites.html">
+                    <h1>Favoritos</h1>
+                </a>
+            </div>
+            <div class="header-image">
+                <a href="list.html">
+                    <img src="img/pokeball.png" width="6%">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div id="content-wrapper">
+        <div class="block-search">
+            <div class="limit-wrapper">
+                <div class="block-search-box">
+                    <form class="block-search-box-form">
+                        <input class="block-search-box-form-input" type="search" placeholder="Número ou Nome" required>
+                    </form>
+                </div>
+                <div class="block-search-display">
+                    <div class="block-search-display-image">
+                        <img class="block-search-display-image-background" src="img/background.jpeg">
+                        <img class="block-search-display-image-pokemon">
+                    </div>
+                    <div class="block-search-display-id">
+                        <h1 class="block-search-display-id-number"></h1>
+                        <h1> - </h1>
+                        <h1 class="block-search-display-id-name"></h1>
+                        <button class="block-search-display-id-button">
+                            <img src="img/estrela.png">
+                        </button>
+                    </div>
+                    <div class="block-search-display-info">
+                        <h1>Ataques</h1>
+                        <ul class="block-search-display-info-list"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
