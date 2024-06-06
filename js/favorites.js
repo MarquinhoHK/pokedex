@@ -21,7 +21,7 @@ $(document).ready(function(){
 
     function showFavorites() {
         $('.block-list-box-message').removeClass("active");
-        if(document.cookie != "empty" || document.cookie != ""){
+        if(document.cookie != "empty" && document.cookie.length != 0){
             var cookies = [];
             cookies = document.cookie.split(",");
             for (var i = 0; i < cookies.length; i++) {
